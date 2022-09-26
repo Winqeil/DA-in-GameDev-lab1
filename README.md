@@ -40,29 +40,12 @@
 ## Задание 1
 ### Пошагово выполнить каждый пункт раздела "ход работы" с описанием и примерами реализации задач
 Ход работы:
-- Произвести подготовку данных для работы с алгоритмом линейной регрессии. 10 видов данных были установлены случайным образом, и данные находились в линейной зависимости. Данные преобразуются в формат массива, чтобы их можно было вычислить напрямую при использовании умножения и сложения.
+- Для Python в отчете привести скриншоты с демонстрацией сохранения документа google.colab на свой диск с запуском программы, выводящей сообщение Hello, world!
+- Для Unity в отчете привести скриншоты вывода сообщений Hello, world!
 
-```py
-
-In [ ]:
-#Import the required modules, numpy for calculation, and Matplotlib for drawing
-import numpy as np
-import matplotlib.pyplot as plt
-#This code is for jupyter Notebook only
-%matplotlib inline
-
-# define data, and change list to array
-x = [3,21,22,34,54,34,55,67,89,99]
-x = np.array(x)
-y = [2,22,24,65,79,82,55,130,150,199]
-y = np.array(y)
-
-#Show the effect of a scatter plot
-plt.scatter(x,y)
-
-```
-
-- Определите связанные функции. Функция модели: определяет модель линейной регрессии wx+b. Функция потерь: функция потерь среднеквадратичной ошибки. Функция оптимизации: метод градиентного спуска для нахождения частных производных w и b.
+![image](https://user-images.githubusercontent.com/103383207/192361052-1d962393-a5e6-408c-a32b-237d3a5ab51b.png)
+![image](https://user-images.githubusercontent.com/103383207/192361091-cd5722a5-8dea-40ac-b13d-9bc1d13f3604.png)
+![image](https://user-images.githubusercontent.com/103383207/192361123-37b0b5d2-ebd3-4f18-b3fd-404ea84dc6c0.png)
 
 
 ## Задание 2
